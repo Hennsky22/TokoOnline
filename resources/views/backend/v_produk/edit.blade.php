@@ -76,7 +76,7 @@
                                                         {{ $row->nama_kategori }}
                                                     </option>
                                                 @else
-                                                    <option value="{{ $row->id }}"> {{ $row->nama_type }} </option>
+                                                    <option value="{{ $row->id }}"> {{ $row->nama_kategori }} </option>
                                                 @endif
                                             @endforeach
                                         </select>
